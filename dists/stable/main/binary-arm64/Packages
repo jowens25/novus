@@ -1,0 +1,19 @@
+Package: ns-serial-mux
+Priority: optional
+Section: utils
+Installed-Size: 35
+Maintainer: Jacob Owens <jowens@novuspower.com>
+Architecture: arm64
+Version: 1.0.15
+Depends: libc6 (>= 2.17)
+Filename: pool/main/n/ns-serial-mux/ns-serial-mux_1.0.15_arm64.deb
+Size: 6600
+MD5sum: 5adcfb5d1337f5cbce7043d1b15a1736
+SHA1: 6e1b4d50381bdabdab8bff79e1267613f6d51838
+SHA256: d26ede330042429e856ff06d64f8c571df25c3033bc947fb972e6314dedcf523
+SHA512: 5a8543bf8ded4354be38726802870bdf64c5e2f15ee9823ef04aac2eaece886e6c964e2c834209a099aed28ad31fcad8e664df7242a38f9b89cf10100eb71dbb
+Description: Serial port to socket bridge
+ This service creates a bridge between a serial port and multiple
+ serial services, allowing multiple applications to communicate
+ over a single serial connection.
+

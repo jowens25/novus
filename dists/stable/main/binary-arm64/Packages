@@ -1,6 +1,22 @@
 Package: ns-agent
 Priority: optional
 Section: utils
+Installed-Size: 152
+Maintainer: Jacob Owens <jowens@novuspower.com>
+Architecture: arm64
+Version: 0.0.4
+Depends: libc6 (>= 2.34), libsnmp40 (>= 5.9.3+dfsg)
+Filename: pool/main/n/ns-agent/ns-agent_0.0.4_arm64.deb
+Size: 18420
+MD5sum: dc02ed43d83aa22039acd3e121039c22
+SHA1: e3113e3ada2135722ffd8804c211eae1829e4a24
+SHA256: 80ff601c00515cd3f2a15a19db4fbce818619c36ab669268b6dbb69b6fcfac31
+SHA512: e3be7690f06b019eb590cb15f69e6fbe208f34a216ac1ca384638fc38a78ef24ff618f0bf14495c82dd3f47f7bb4518a2a3aed09ebc462eab8de05b7aadc8443
+Description: Novus SNMP Agent
+
+Package: ns-agent
+Priority: optional
+Section: utils
 Installed-Size: 96
 Maintainer: Jacob Owens <jowens@novuspower.com>
 Architecture: arm64

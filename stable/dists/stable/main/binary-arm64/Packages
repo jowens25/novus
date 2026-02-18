@@ -49,3 +49,19 @@ Description: Serial port to socket bridge
  serial services, allowing multiple applications to communicate
  over a single serial connection.
 
+Package: ns2
+Priority: optional
+Section: utils
+Installed-Size: 109726
+Maintainer: Jacob Owens <jowens@novuspower.com>
+Architecture: arm64
+Version: 0.0.2
+Depends: libc6 (>= 2.17), zlib1g (>= 1:1.1.4)
+Filename: pool/main/n/ns2/ns2_0.0.2_arm64.deb
+Size: 109907368
+MD5sum: 2b4eb2d9392ad0071e965ac4df6d2607
+SHA1: 931a4fb67f8b32c0998e32896c9e0c559b7be18e
+SHA256: af2d6939a5d96de7e58fb2dcadbfff8133a9ef67ae2fec986ffb5a5988e4f7a4
+SHA512: 15126d1bcc75b378f7fc3ca7cd92a0fb5cf7fdc0cfa72fc025f3221d76fc4d662a55374c9a7a93f3731b1453c4f98f712ceba54ddd9ca7e1d5cc4ffca7457c8d
+Description: Configuration tool
+
